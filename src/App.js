@@ -3,6 +3,7 @@ import './App.css';
 import Props from "./components/Props/Props";
 import Comp from "./components/Comp";
 import State from "./components/Hooks/State/State";
+import Effects from "./components/Hooks/Effect/Effects";
 
 function App() {
     const [number, setNumber] = useState(0);
@@ -38,6 +39,7 @@ function App() {
             <Props name="Thomas" age="20" />
             <Comp />
             <State />
+            <Effects />
         </>
     );
 }
