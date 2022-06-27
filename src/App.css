@@ -9,6 +9,9 @@ button {
     height: 45px;
     width: 120px;
     margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container {
     background-color: #dba71f;
